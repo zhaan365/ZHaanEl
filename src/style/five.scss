@@ -1,0 +1,389 @@
+.five{
+  &__title{
+    font-weight: 700;
+    font-size: 50px;
+    color: #504178;
+    text-align: center;
+    margin-top: 120px;
+  }
+  &__menu{
+    margin-top: 65px;
+  }
+  &__link33{
+    border-top: #4C3D74 3px solid;
+    border-bottom: #4C3D74 3px solid;
+    padding: 15px 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    &:hover{
+      background: #4C3D74;
+      &::before{
+        content: "УРОК 1. ВВОДНЫЙ УРОК";
+        color: #FFFFFF;
+        margin-left: 1px;
+        font-weight: 500;
+        font-size: 18px;
+      }
+      &::after{
+        content: "+";
+        color: #FFFFFF;
+        margin-left: 1px;
+        font-weight: 400;
+        font-size: 30px;
+        margin-right: 5px;
+      }
+    }
+  }
+  &__link44{
+    border-bottom: #4C3D74 3px solid;
+    padding: 15px 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    &:hover{
+      background: #4C3D74;
+      &::before{
+        content: "УРОК 2. СКОРОСТНОЕ СНЯТИЕ РЕСНИЦ";
+        color: #FFFFFF;
+        margin-left: 1px;
+        font-weight: 500;
+        font-size: 18px;
+      }
+      &::after{
+        content: "+";
+        color: #FFFFFF;
+        margin-left: 1px;
+        font-weight: 400;
+        font-size: 30px;
+        margin-right: 5px;
+      }
+    }
+  }
+
+
+
+  &__link0{
+    border-top: #4C3D74 3px solid;
+    border-bottom: #4C3D74 3px solid;
+    padding: 15px 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    &:hover{
+      background: #4C3D74;
+      &::before{
+        content: "УРОК 1. ВВОДНЫЙ УРОК";
+        color: #FFFFFF;
+        margin-left: 1px;
+        font-weight: 500;
+        font-size: 18px;
+      }
+      &::after{
+        content: "+";
+        color: #FFFFFF;
+        margin-left: 1px;
+        font-weight: 400;
+        font-size: 30px;
+        margin-right: 5px;
+      }
+    }
+  }
+  &__link{
+    border-bottom: #4C3D74 3px solid;
+    padding: 15px 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    &:hover{
+      background: #4C3D74;
+      &::before{
+        content: "УРОК 2. СКОРОСТНОЕ СНЯТИЕ РЕСНИЦ";
+        color: #FFFFFF;
+        margin-left: 1px;
+        font-weight: 500;
+        font-size: 18px;
+      }
+      &::after{
+        content: "+";
+        color: #FFFFFF;
+        margin-left: 1px;
+        font-weight: 400;
+        font-size: 30px;
+        margin-right: 5px;
+      }
+    }
+  }
+
+
+
+
+  &__link1{
+    border-bottom: #4C3D74 3px solid;
+    padding: 15px 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    &:hover{
+      background: #4C3D74;
+      &::before{
+        content: "УРОК 3. РАБОТА С КЛЕЕМ. КАК ПРОДЛИТЬ НОСКУ";
+        color: #FFFFFF;
+        margin-left: 1px;
+        font-weight: 500;
+        font-size: 18px;
+      }
+      &::after{
+        content: "+";
+        color: #FFFFFF;
+        margin-left: 1px;
+        font-weight: 400;
+        font-size: 30px;
+        margin-right: 5px;
+      }
+    }
+  }
+
+  &__link2{
+    border-bottom: #4C3D74 3px solid;
+    padding: 15px 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    &:hover{
+      background: #4C3D74;
+      &::before{
+        content: "УРОК 4. ЗДОРОВЬЕ МАСТЕРА";
+        color: #FFFFFF;
+        margin-left: 1px;
+        font-weight: 500;
+        font-size: 18px;
+      }
+      &::after{
+        content: "+";
+        color: #FFFFFF;
+        margin-left: 1px;
+        font-weight: 400;
+        font-size: 30px;
+        margin-right: 5px;
+      }
+    }
+  }
+
+  &__link3{
+    border-bottom: #4C3D74 3px solid;
+    padding: 15px 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    &:hover{
+      background: #4C3D74;
+      &::before{
+        content: "УРОК 5. ЛИЧНЫЙ БРЕНД В INSTAGRAM: ПОЧЕМУ УВЯДАЮТ КОММЕРЧЕСКИЕ АККАУНТЫ";
+        color: #FFFFFF;
+        margin-left: 1px;
+        font-weight: 500;
+        font-size: 18px;
+      }
+      &::after{
+        content: "+";
+        color: #FFFFFF;
+        margin-left: 1px;
+        font-weight: 400;
+        font-size: 30px;
+        margin-right: 5px;
+      }
+    }
+  }
+
+  &__link4{
+    border-bottom: #4C3D74 3px solid;
+    padding: 15px 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    &:hover{
+      background: #4C3D74;
+      &::before{
+        content: "УРОК 6. ЛОМАЕМ СТЕРЕОТИПЫ МОДЕЛИРОВАНИЯ: ЧЕМ СЛОЖНЕЕ ПРИДУМАЛ, ТЕМ СЛОЖНЕЕ ЖИТЬ";
+        color: #FFFFFF;
+        margin-left: 1px;
+        font-weight: 500;
+        font-size: 18px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+      }
+      &::after{
+        content: "+";
+        color: #FFFFFF;
+        margin-left: 1px;
+        font-weight: 400;
+        font-size: 30px;
+        margin-right: 5px;
+      }
+    }
+  }
+
+  &__link5{
+    border-bottom: #4C3D74 3px solid;
+    padding: 15px 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    &:hover{
+      background: #4C3D74;
+      &::before{
+        content: "УРОК 7. КЛАССИЧЕСКОЕ НАРАЩИВАНИЕ РЕСНИЦ";
+        color: #FFFFFF;
+        margin-left: 1px;
+        font-weight: 500;
+        font-size: 18px;
+      }
+      &::after{
+        content: "+";
+        color: #FFFFFF;
+        margin-left: 1px;
+        font-weight: 400;
+        font-size: 30px;
+        margin-right: 5px;
+      }
+    }
+  }
+
+  &__link6{
+    border-bottom: #4C3D74 3px solid;
+    padding: 15px 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    &:hover{
+      background: #4C3D74;
+      &::before{
+        content: "УРОК 8. ПУЧОК. КАК БЫСТРО И ПРАВИЛЬНО ФОРМИРОВАТЬ ТЕБЯ, ДРУЖОК?";
+        color: #FFFFFF;
+        margin-left: 1px;
+        font-weight: 500;
+        font-size: 18px;
+      }
+      &::after{
+        content: "+";
+        color: #FFFFFF;
+        margin-left: 1px;
+        font-weight: 400;
+        font-size: 30px;
+        margin-right: 5px;
+      }
+    }
+  }
+
+  &__link7{
+    border-bottom: #4C3D74 3px solid;
+    padding: 15px 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    &:hover{
+      background: #4C3D74;
+      &::before{
+        content: "УРОК 9. НАРАЩИВАЕМ ОБЪЕМЫ 2D+";
+        color: #FFFFFF;
+        margin-left: 1px;
+        font-weight: 500;
+        font-size: 18px;
+      }
+      &::after{
+        content: "+";
+        color: #FFFFFF;
+        margin-left: 1px;
+        font-weight: 400;
+        font-size: 30px;
+        margin-right: 5px;
+      }
+    }
+  }
+  &__text{
+    font-weight: 500;
+    font-size: 18px;
+    color: #4C3D74;
+  }
+  &__x{
+    font-weight: 400;
+    font-size: 30px;
+    color: #4D3E75;
+    margin-right: 5px;
+  }
+  &__fall{
+    display: flex;
+    align-items: center;
+    column-gap: 40px;
+    margin-top: 50px;
+    position: relative;
+    margin-bottom: 176px;
+  }
+  &__btn{
+    cursor: pointer;
+    padding: 18px 74px 20px;
+    background: #A387C4;
+    border-radius: 30px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFFFF;
+    border: #4C3D74 solid 3px;
+    &:hover{
+      background: #FFFFFF;
+      transition: .5s;
+      color: #504178;
+    }
+  }
+  &__p{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+    color: #4C3D74;
+  }
+  &__img{
+    position: absolute;
+    right: 125px;
+    top: -3px;
+  }
+}
+
+@media (max-width: 1001px) {
+  .five__fall{
+    display: flex;
+    flex-direction: column;
+  }
+  .five__p{
+    order: 1;
+    text-align: center;
+  }
+  .five__btn{
+    order: 2;
+    margin: 33px 0 90px;
+  }
+  .five__img{
+    margin-top: 183px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+@media (max-width: 388px) {
+  .five__img{
+    margin-top: 215px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}

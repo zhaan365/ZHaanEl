@@ -1,0 +1,67 @@
+.five__title {
+  font-weight: 700;
+  font-size: 50px;
+  color: #504178;
+  text-align: center;
+  margin-top: 120px;
+}
+.five__menu {
+  margin-top: 65px;
+}
+.five__link0 {
+  border-top: #4C3D74 3px solid;
+  border-bottom: #4C3D74 3px solid;
+  padding: 15px 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+.five__link {
+  border-bottom: #4C3D74 3px solid;
+  padding: 15px 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+.five__text {
+  font-weight: 500;
+  font-size: 18px;
+  color: #4C3D74;
+}
+.five__x {
+  font-weight: 400;
+  font-size: 30px;
+  color: #4D3E75;
+  margin-right: 5px;
+}
+.five__fall {
+  display: flex;
+  align-items: center;
+  column-gap: 40px;
+  margin-top: 50px;
+  position: relative;
+  margin-bottom: 176px;
+}
+.five__btn {
+  cursor: pointer;
+  padding: 18px 74px 20px;
+  border: none;
+  background: #A387C4;
+  border-radius: 30px;
+  font-weight: 700;
+  font-size: 16px;
+  color: #FFFFFF;
+}
+.five__p {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 150%;
+  color: #4C3D74;
+}
+.five__img {
+  position: absolute;
+  right: 125px;
+  top: -5px;
+}

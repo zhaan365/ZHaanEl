@@ -1,0 +1,256 @@
+.last{
+  &__title{
+    font-weight: 700;
+    font-size: 50px;
+    color: #504178;
+    text-align: center;
+    margin-top: 150px;
+  }
+
+  &__link0{
+    border-top: #4C3D74 3px solid;
+    border-bottom: #4C3D74 3px solid;
+    padding: 15px 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    &:hover{
+      border-top: #4C3D74 3px solid;
+      background: #4C3D74;
+      &::before{
+        content: "Я ТОЧНО ВСЕМУ НАУЧУСЬ? У МЕНЯ ПОЛУЧИТСЯ?";
+        color: #FFFFFF;
+        margin-left: 1px;
+        font-weight: 500;
+        font-size: 18px;
+      }
+      &::after{
+        content: "+";
+        color: #FFFFFF;
+        margin-left: 1px;
+        font-weight: 400;
+        font-size: 30px;
+        margin-right: 5px;
+      }
+    }
+  }
+  &__link{
+    border-bottom: #4C3D74 3px solid;
+    padding: 15px 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    &:hover{
+      background: #4C3D74;
+      &::before{
+        content: "КАК Я БУДУ УЧИТЬСЯ СКОРОСТНОМУ НАРАЩИВАНИЮ ОНЛАЙН?";
+        color: #FFFFFF;
+        margin-left: 1px;
+        font-weight: 500;
+        font-size: 18px;
+      }
+      &::after{
+        content: "+";
+        color: #FFFFFF;
+        margin-left: 1px;
+        font-weight: 400;
+        font-size: 30px;
+        margin-right: 5px;
+      }
+    }
+  }
+
+  &__link11{
+    border-bottom: #4C3D74 3px solid;
+    padding: 15px 0 20px;
+    cursor: pointer;
+    &:hover{
+      background: #4C3D74;
+      &::before{
+        content: "Я ТОЧНО ВСЕМУ НАУЧУСЬ? У МЕНЯ ПОЛУЧИТСЯ?";
+        color: #FFFFFF;
+        margin-left: 1px;
+        font-weight: 500;
+        font-size: 18px;
+      }
+      &::after{
+        content: "+";
+        color: #FFFFFF;
+        margin-left: 1px;
+        font-weight: 400;
+        font-size: 30px;
+        margin-right: 5px;
+      }
+    }
+  }
+
+  &__link12{
+    border-bottom: #4C3D74 3px solid;
+    padding: 15px 0 20px;
+    cursor: pointer;
+    &:hover{
+      background: #4C3D74;
+      &::before{
+        content: "КАК Я БУДУ УЧИТЬСЯ СКОРОСТНОМУ НАРАЩИВАНИЮ ОНЛАЙН?";
+        color: #FFFFFF;
+        margin-left: 1px;
+        font-weight: 500;
+        font-size: 18px;
+      }
+      &::after{
+        content: "+";
+        color: #FFFFFF;
+        margin-left: 1px;
+        font-weight: 400;
+        font-size: 30px;
+        margin-right: 5px;
+      }
+    }
+  }
+
+  &__link13{
+    border-bottom: #4C3D74 3px solid;
+    padding: 15px 0 20px;
+    cursor: pointer;
+    &:hover{
+      background: #4C3D74;
+      &::before{
+        content: "СКОЛЬКО ВРЕМЕНИ БУДЕТ УХОДИТЬ НА ВЫПОЛНЕНИЕ ДЗ?";
+        color: #FFFFFF;
+        margin-left: 1px;
+        font-weight: 500;
+        font-size: 18px;
+      }
+      &::after{
+        content: "+";
+        color: #FFFFFF;
+        margin-left: 1px;
+        font-weight: 400;
+        font-size: 30px;
+        margin-right: 5px;
+      }
+    }
+  }
+
+  &__link14{
+    border-bottom: #4C3D74 3px solid;
+    padding: 15px 0 20px;
+    cursor: pointer;
+    &:hover{
+      background: #4C3D74;
+      &::before{
+        content: "КАК ЧАСТО БУДУТ ВЫХОДИТЬ УРОКИ?";
+        color: #FFFFFF;
+        margin-left: 1px;
+        font-weight: 500;
+        font-size: 18px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+      }
+      &::after{
+        content: "+";
+        color: #FFFFFF;
+        margin-left: 1px;
+        font-weight: 400;
+        font-size: 30px;
+        margin-right: 5px;
+      }
+    }
+  }
+
+  &__link15{
+    border-bottom: #4C3D74 3px solid;
+    cursor: pointer;
+    &:hover{
+      background: #4C3D74;
+      &::before{
+        content: "КАКАЯ ТЕХНИКА БУДЕТ ОТРАБАТЫВАТЬСЯ: РУЧНАЯ ИЛИ ЛЕНТОЧНАЯ?";
+        color: #FFFFFF;
+        margin-left: 1px;
+        font-weight: 500;
+        font-size: 18px;
+      }
+      &::after{
+        content: "+";
+        color: #FFFFFF;
+        margin-left: 1px;
+        font-weight: 400;
+        font-size: 30px;
+        margin-right: 5px;
+      }
+    }
+  }
+  &__desc{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+    color: #4C3D74;
+  }
+  &__btn{
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFFFF;
+    background: #A387C4;
+    border-radius: 30px;
+    padding: 20px 70px;
+    cursor: pointer;
+    border: #4C3D74 solid 3px;
+    &:hover{
+      background: #FFFFFF;
+      transition: .5s;
+      color: #504178;
+    }
+  }
+  &__block{
+    display: flex;
+    column-gap: 30px;
+    margin-top: 62px;
+    margin-bottom: 173px;
+    position: relative;
+    align-items: center;
+  }
+  &__img0{
+    position: absolute;
+    right: 150px;
+    bottom: -174px;
+  }
+  &__box{
+    display: flex;
+    column-gap: 28px;
+    align-items: center;
+  }
+  .last__menu{
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 1081px) {
+  .last__block{
+    display: flex;
+    flex-direction: column;
+  }
+  .last__btn{
+    margin: 33px 0 110px;
+  }
+  .last__img0{
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

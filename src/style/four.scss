@@ -1,0 +1,102 @@
+.four{
+  background: #4C3D74;
+  padding-bottom: 70px;
+  &__fall0{
+    display: flex;
+    column-gap: 45px;
+  }
+  &__title{
+    font-weight: 700;
+    font-size: 50px;
+    color: #FFFFFF;
+    text-align: center;
+  }
+  &__desc1{
+    margin-top: 31px;
+    margin-bottom: 38px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+  }
+  &__desc2{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+  }
+  &__box{
+    display: flex;
+    column-gap: 120px;
+    margin: 20px 0 50px;
+  }
+  &__card11{
+    width: 180px;
+    height: 66px;
+  }
+  &__titles{
+    font-weight: 700;
+    font-size: 50px;
+    color: #FFFFFF;
+    text-align: center;
+  }
+  &__desc11{
+    margin-top: 7px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF;
+    text-align: center;
+  }
+  &__card12{
+    width: 211px;
+    height: 66px;
+  }
+  &__box2{
+    display: flex;
+    column-gap: 22px;
+    margin-bottom: 45px;
+  }
+  &__card21{
+    width: 270px;
+    height: 66px;
+  }
+  &__titless{
+    font-weight: 700;
+    font-size: 50px;
+    color: #FFFFFF;
+    margin-left: 5px;
+  }
+  &__card22{
+    width: 250px;
+    height: 66px;
+  }
+  &__desc0{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+    margin-left: 6px;
+  }
+  &__right{
+    margin-top: 55px;
+    margin-left: 30px;
+  }
+}
+
+@media (max-width: 991px) {
+  .four__fall0{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+  .four__box2{
+    margin-bottom: 60px;
+  }
+}
+
+@media (max-width: 556px) {
+  .four__left{
+    padding: 0 30px;
+  }
+}

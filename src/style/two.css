@@ -1,0 +1,142 @@
+.two__title {
+  font-weight: 700;
+  font-size: 50px;
+  color: #504178;
+  margin-top: 160px;
+  text-align: center;
+}
+.two__box {
+  display: flex;
+  justify-content: center;
+  column-gap: 65px;
+}
+.two__card {
+  position: relative;
+}
+.two__card2 {
+  position: relative;
+}
+.two__card3 {
+  position: relative;
+}
+.two__cards {
+  margin-top: 46px;
+  width: 329px;
+  height: 138px;
+  background: #F2EEF7;
+  border: 3px solid #4C3D74;
+  border-radius: 30px;
+  padding: 33px 0 33px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: #4C3D74;
+}
+.two__p {
+  margin-left: 55px;
+}
+.two__cards2 {
+  margin-top: 46px;
+  width: 333px;
+  height: 138px;
+  background: #F2EEF7;
+  border: 3px solid #4C3D74;
+  border-radius: 30px;
+  padding-top: 35px;
+  padding-left: 50px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: #4C3D74;
+}
+.two__cards3 {
+  margin-top: 46px;
+  width: 329px;
+  height: 138px;
+  background: #F2EEF7;
+  border: 3px solid #4C3D74;
+  border-radius: 30px;
+  padding-top: 35px;
+  padding-left: 50px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: #4C3D74;
+}
+.two__image {
+  position: absolute;
+  top: 60px;
+  left: -40px;
+}
+.two__boxes {
+  margin-top: 43px;
+  display: flex;
+  column-gap: 33px;
+}
+.two__desc {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 150%;
+  color: #4C3D74;
+}
+.two__btn {
+  font-weight: 700;
+  font-size: 16px;
+  color: #FFFFFF;
+  background: #A387C4;
+  border-radius: 30px;
+  padding: 20px 65px 19px;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 180px;
+}
+.two__hero {
+  position: relative;
+}
+.two__images {
+  position: absolute;
+  right: -5px;
+  bottom: -1px;
+}
+
+@media (max-width: 991px) {
+  .two__box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .two__card2 {
+    position: relative;
+  }
+  .two__card3 {
+    position: relative;
+  }
+  .two__image {
+    width: 61px;
+    height: 61px;
+    position: absolute;
+    top: -40px;
+    left: -10px;
+  }
+  .two__image2 {
+    width: 61px;
+    height: 61px;
+    position: absolute;
+    left: 270px;
+  }
+  .two__boxes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    row-gap: 34px;
+  }
+  .two__blocked {
+    display: flex;
+    flex-direction: column;
+    row-gap: 100px;
+  }
+  .two__images {
+    margin-left: 150px;
+  }
+}

@@ -1,0 +1,155 @@
+.header{
+  background: #4C3D74;
+  padding-top: 105px;
+  &__burger{
+    width: 30px;
+    height: 30px;
+    align-items: center;
+    display: none;
+    &-line{
+      width: 100%;
+      height: 4px;
+      background: white;
+      position: relative;
+      &::before{
+        content: "";
+        width: 100%;
+        height: 4px;
+        background: white;
+        position: absolute;
+        top: -9px;
+        left: 0;
+      }
+      &::after{
+        content: "";
+        width: 100%;
+        height: 4px;
+        background: white;
+        position: absolute;
+        top: 9px;
+        left: 0;
+      }
+    }
+  }
+  &__row{
+    display: flex;
+    justify-content: space-between;
+  }
+  &__menu{
+    display: flex;
+    column-gap: 27px;
+  }
+  &__title{
+    font-weight: 700;
+    font-size: 14px;
+    color: #FFFFFF;
+  }
+  &__link{
+    font-weight: 700;
+    font-size: 14px;
+    color: #FFFFFF;
+    &:hover{
+      color: aquamarine;
+    }
+  }
+}
+
+
+
+//@media (max-width: ) {
+//
+//}
+
+//1440 - 1321 - 1440
+//1320 - 1201 - 1320
+//1200 - 1025 - 1200
+
+//@media (max-width: 1320px) {
+//
+//}
+
+
+
+//@media (max-width: 1200px) {
+//  .one__title{
+//    text-align: center;
+//  }
+//  .one__titles{
+//    text-align: center;
+//  }
+//  .one__btns{
+//    display: flex;
+//    flex-direction: column;
+//    row-gap: 20px;
+//  }
+//
+//  .one__right{
+//    display: flex;
+//    justify-content: center;
+//    margin-top: -150px;
+//  }
+//  .one{
+//    padding-bottom: 100px;
+//  }
+//  .one__img{
+//    margin-top: 80px;
+//  }
+//  //.one__img{
+//  //
+//  //}
+//  .two__box{
+//    display: flex;
+//    flex-direction: column;
+//  }
+//  .two__card{
+//    display: flex;
+//    justify-content: center;
+//    position: relative;
+//  }
+//  .two__card2{
+//    display: flex;
+//    justify-content: center;
+//    position: relative;
+//  }
+//  .two__card3{
+//    display: flex;
+//    justify-content: center;
+//    position: relative;
+//  }
+//  .two__image{
+//    position: absolute;
+//    left: 390px;
+//  }
+//  .two__boxes{
+//    display: flex;
+//    flex-direction: column;
+//    row-gap: 34px;
+//  }
+//  .two__desc{
+//    text-align: center;
+//  }
+//  .two{
+//    padding-bottom: 120px;
+//  }
+//  .two__images{
+//    top: -122px;
+//    position: absolute;
+//    left: 50%;
+//    transform: translateX(-50%);
+//  }
+//}
+
+@media (max-width: 1025px) {
+
+  .header__burger{
+    display: flex;
+  }
+  .header__menu{
+    display: none;
+  }
+
+}
+
+//@media (max-width: 991px) {
+//
+//}

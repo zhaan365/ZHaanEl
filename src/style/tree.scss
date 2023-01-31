@@ -1,0 +1,121 @@
+.tree{
+  padding-top: 20px;
+  padding-bottom: 140px;
+  background: #4C3D74;
+  &__title{
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 150px;
+  }
+  &__bigbox{
+    margin-top: 41px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 45px;
+  }
+  &__row1{
+    display: flex;
+    column-gap: 90px;
+    margin-left: 100px;
+  }
+  &__row2{
+    display: flex;
+    column-gap:110px;
+  }
+  &__card{
+    width: 300px;
+    height: 48px;
+    position: relative;
+  }
+  &__card2{
+    width: 280px;
+    height: 48px;
+    position: relative;
+  }
+  &__card3{
+    width: 319px;
+    height: 48px;
+    position: relative;
+  }
+  &__card4{
+    width: 277px;
+    height: 48px;
+    position: relative;
+  }
+  &__card5{
+    width: 259px;
+    height: 48px;
+    position: relative;
+  }
+  &__card6{
+    width: 218px;
+    height: 48px;
+    position: relative;
+  }
+  &__img{
+    position: absolute;
+    bottom: -5px;
+    left: -80px;
+  }
+  &__texts{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+  }
+}
+
+
+
+@media (max-width: 1145px) {
+  .tree__row1{
+    display: flex;
+    flex-direction: column;
+    row-gap: 28px;
+  }
+  .tree__row2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    row-gap: 28px;
+  }
+  .tree__img{
+    width: 43px;
+    height: 43px;
+    margin-left: 20px;
+  }
+  .tree__img0{
+    width: 46px;
+    height: 46px;
+    margin-left: 15px;
+    top: 2px;
+  }
+}
+
+@media (max-width: 555px) {
+  .four__left{
+    width: 530px;
+    height: 800px;
+  }
+  .four__boxxxxx{
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+  }
+}
+
+@media (max-width: 485px) {
+  .four__left{
+    width: 460px;
+    height: 1000px;
+  }
+  .four__boxxxxx{
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+  }
+}
+

@@ -1,0 +1,71 @@
+.tree {
+  padding-top: 20px;
+  padding-bottom: 140px;
+  background: #4C3D74;
+}
+.tree__title {
+  font-weight: 700;
+  font-size: 50px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-top: 150px;
+}
+.tree__row {
+  margin-top: 41px;
+  display: flex;
+  column-gap: 100px;
+  justify-content: center;
+}
+.tree__row2 {
+  margin-top: 45px;
+  display: flex;
+  column-gap: 70px;
+  justify-content: center;
+}
+.tree__card {
+  width: 300px;
+  height: 48px;
+  position: relative;
+  border: #FFFFFF solid 2px;
+}
+.tree__card2 {
+  width: 274px;
+  height: 48px;
+  position: relative;
+  border: #FFFFFF solid 2px;
+}
+.tree__card3 {
+  width: 319px;
+  height: 48px;
+  position: relative;
+  border: #FFFFFF solid 2px;
+}
+.tree__card4 {
+  width: 277px;
+  height: 48px;
+  position: relative;
+  border: #FFFFFF solid 2px;
+}
+.tree__card5 {
+  width: 259px;
+  height: 48px;
+  position: relative;
+  border: #FFFFFF solid 2px;
+}
+.tree__card6 {
+  width: 218px;
+  height: 48px;
+  position: relative;
+  border: #FFFFFF solid 2px;
+}
+.tree__img {
+  position: absolute;
+  bottom: -5px;
+  left: -80px;
+}
+.tree__texts {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  color: #FFFFFF;
+}

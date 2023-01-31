@@ -1,0 +1,216 @@
+.six{
+  background: #4C3D74;
+  padding-top: 170px;
+  padding-bottom: 150px;
+  &__title{
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  &__block{
+    display: flex;
+    justify-content: center;
+    column-gap: 35px;
+    margin-top: 46px;
+  }
+  &__card{
+    width: 364px;
+    height: 529px;
+    background: #F2EEF7;
+    border: 3px solid #4C3D74;
+    border-radius: 30px;
+    padding: 0 30px;
+    position: relative;
+  }
+  &__titles{
+    font-weight: 700;
+    font-size: 16px;
+    color: #4C3D74;
+    margin-top: 57px;
+  }
+  &__menu{
+    margin-top: 20px;
+  }
+  &__link{
+    font-weight: 500;
+    font-size: 16px;
+    color: #4C3D74;
+    margin: 8px 0 8px;
+    display: flex;
+    column-gap: 8px;
+    line-height: 150%;
+    position: relative;
+  }
+  &__link2{
+    font-weight: 500;
+    font-size: 16px;
+    color: #4C3D74;
+    margin: 8px 7px 8px;
+    display: flex;
+    column-gap: 8px;
+    line-height: 150%;
+  }
+  &__desc2{
+    font-weight: 700;
+    font-size: 16px;
+    color: #4C3D74;
+    margin: 18px 0 15px;
+  }
+  &__boxes{
+    display: flex;
+    column-gap: 55px;
+  }
+  &__desc21{
+    font-weight: 500;
+    font-size: 12px;
+    color: #4C3D74;
+  }
+  &__desc22{
+    font-weight: 700;
+    font-size: 16px;
+    color: #4C3D74;
+  }
+  &__btn{
+    padding: 19px 60px;
+    background: #A387C4;
+    border-radius: 30px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-top: 28px;
+    cursor: pointer;
+    border: #4C3D74 solid 3px;
+    &:hover{
+      background: #FFFFFF;
+      transition: .5s;
+      color: #504178;
+    }
+  }
+  &__btns{
+    display: flex;
+    justify-content: center;
+  }
+  &__img{
+    position: absolute;
+    bottom: 437px;
+    left: 270px;
+  }
+  &__desc0{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+  }
+  &__btn0{
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFFFF;
+    background: #4C3D74;
+    border: 4px solid #A387C4;
+    border-radius: 30px;
+    padding: 20px 45px;
+    cursor: pointer;
+    &:hover{
+      background: #FFFFFF;
+      transition: .5s;
+      color: #504178;
+    }
+  }
+  &__title0{
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFFFF;
+  }
+  &__block0{
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    column-gap: 50px;
+  }
+  &__box01{
+    display: flex;
+    column-gap: 30px;
+  }
+  &__box02{
+    display: flex;
+    column-gap: 44px;
+    align-items: center;
+  }
+  &__svg2{
+    margin-top: 11px;
+  }
+  &__svg{
+    margin-top: 3px;
+  }
+}
+
+@media (max-width: 1191px) {
+  .six__block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .six__block0{
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+  }
+  .six__box01{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 25px;
+    text-align: center;
+  }
+  .six__box02{
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+  }
+  .six__img0{
+    width: 67px;
+    height: 67px;
+  }
+  .six__card1{
+    margin-right: 450px;
+  }
+  .six__card2{
+    margin-left: 450px;
+    margin-top: -530px;
+  }
+  .six__card3{
+    margin-right: 450px;
+    margin-top: 90px;
+    margin-left: 450px;
+  }
+}
+
+@media (max-width: 861px) {
+  .six__card1{
+    left: 225px;
+  }
+  .six__card2{
+    margin-top: 90px;
+    right: 225px;
+  }
+  .six__card3{
+    margin-top: 90px;
+
+  }
+  .six__img{
+    width: 98px;
+    height: 98px;
+    top: -50px;
+    left: 290px;
+  }
+}
+
+
+
+
+
+
+
+
+
